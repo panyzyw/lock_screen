@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YYDRobotLockScreen</string>
+    <!-- 循环监听来自哪里的KEY -->
+    <string name="recycle_from_key">from</string>
+    <!-- 循环监听悬浮表情 -->
+    <string name="recycle_voice_float_key">voice_float</string>
+    <!-- 循环监听大表情 -->
+    <string name="recycle_expression_key">expression</string>
+    <!-- 停止监听来自哪里的KEY -->
+    <string name="stop_from_key">from</string>
+</resources>

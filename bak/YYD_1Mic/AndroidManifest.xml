@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yongyida.robot.lockscreen"
+    android:versionCode="3"
+    android:versionName="2.0.2" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--获取收取短信的权限  -->
+    　<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <!--获取发送短信的权限  -->
+　　<uses-permission android:name="android.permission.SEND_SMS"/>
+   <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+   <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>  
+	<!--获取电量的状态的权限  -->
+   <uses-permission android:name="android.permission.BATTERY_STATS"/> 
+   <!--获取收到短信的权限  -->
+   <uses-permission android:name="android.permission.RECEIVE_SMS" />  
+   <!--获取读取短信的权限  -->
+   <uses-permission android:name="android.permission.READ_SMS" />  
+   <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:name="com.yongyida.robot.lockscreen.ApplicationHelper"
+        android:icon="@drawable/sleep_00051"
+        android:label="@string/app_name"
+        android:largeHeap="true" >
+        <activity
+            android:name="com.yongyida.robot.lockscreen.faces.activity.LockScreenActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.yongyida.robot.lockscreen.service.RobotActionService" >
+        </service>
+
+        <receiver
+            android:name="com.yongyida.robot.lockscreen.receiver.FacesReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="com.yongyida.robot.LockScreen" />
+                <action android:name="com.yydrobot.STOP" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_SAY_ON_ANGRY" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_AFRAID" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_SHY" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_JIAYOU" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_CRY" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_KU" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_MENG" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_SAD" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_ANGRY" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_QINQIN" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_LISTEN" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_SLEEP" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_SPEAK" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_LAUGH" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_LEARN" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_YUN" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_NICTATION" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_HUNGRY" />
+                <action android:name="com.yongyida.action.lockscreen.ACTION_NORMAL" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <action android:name="com.yydrobot.ENTERVIDEO" />
+                <action android:name="com.yydrobot.ENTERMONITOR" />
+                <action android:name="TouchSensor" />
+                <action android:name="com.yongyida.robot.voice.VOICE_UNDERSTAND" />
+				
+				<action android:name="com.yydrobot.ENTERVIDEO" />
+                <action android:name="com.yydrobot.EXITVIDEO" />
+                <action android:name="com.yydrobot.ENTERMONITOR" />
+                <action android:name="com.yydrobot.EXITMONITOR" />
+                <action android:name="com.yongyida.robot.FACTORYSTART" />
+                <action android:name="com.yongyida.robot.FACTORYCLOSE" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+
+
+        <!-- 测试表情的Activity -->
+        <activity
+            android:name="com.yongyida.robot.lockscreen.faces.activity.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+    </application>
+
+</manifest>

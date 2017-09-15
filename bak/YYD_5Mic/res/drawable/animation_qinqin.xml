@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画
+    根标签下，通过item标签对动画中的每一个图片进行声明
+    android:duration 表示展示所用的该图片的时间长度
+ -->
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="true"
+  >
+    <item android:drawable="@drawable/qinqin0" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin1" android:duration="100"></item>
+	   <item android:drawable="@drawable/qinqin2" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin3" android:duration="100"></item>  
+   <item android:drawable="@drawable/qinqin4" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin5" android:duration="100"></item>
+   <item android:drawable="@drawable/qinqin6" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin7" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin8" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin9" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin10" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin11" android:duration="100"></item>
+     <item android:drawable="@drawable/qinqin12" android:duration="100"></item>
+        <item android:drawable="@drawable/qinqin13" android:duration="100"></item>    <item
+        android:drawable="@drawable/normal10"
+        android:duration="100">
+    </item>
+</animation-list>

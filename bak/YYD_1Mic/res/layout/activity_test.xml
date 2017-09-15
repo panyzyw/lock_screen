@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dialog_show" />
+
+                <Button
+                    android:id="@+id/btn_face_say_on_angry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_say_on_angry" />
+
+                <Button
+                    android:id="@+id/btn_face_afraid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_afraid" />
+
+                <Button
+                    android:id="@+id/btn_face_shy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_shy" />
+
+                <Button
+                    android:id="@+id/btn_face_fighting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_fighting" />
+
+                <Button
+                    android:id="@+id/btn_face_cry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_cry" />
+
+                <Button
+                    android:id="@+id/btn_face_cool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_cool" />
+
+                <Button
+                    android:id="@+id/btn_face_acting_cute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_acting_cute" />
+
+                <Button
+                    android:id="@+id/btn_face_sad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_sad" />
+
+                <Button
+                    android:id="@+id/btn_face_rage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_rage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_face_kiss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_kiss" />
+
+                <Button
+                    android:id="@+id/btn_face_give_ear_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_give_ear_to" />
+
+                <Button
+                    android:id="@+id/btn_face_sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_sleep" />
+
+                <Button
+                    android:id="@+id/btn_face_saying"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_saying" />
+
+                <Button
+                    android:id="@+id/btn_face_laugh_squint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_laugh_squint" />
+
+                <Button
+                    android:id="@+id/btn_face_study"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_study" />
+
+                <Button
+                    android:id="@+id/btn_face_giddy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_giddy" />
+
+                <Button
+                    android:id="@+id/btn_face_nictation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_nictation" />
+
+                <Button
+                    android:id="@+id/btn_face_auto_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_auto_test" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_face_touch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_touch" />
+
+                <Button
+                    android:id="@+id/btn_face_quiet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_quiet" />
+
+                <Button
+                    android:id="@+id/btn_face_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_lock" />
+
+                <Button
+                    android:id="@+id/btn_face_unlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_unlock" />
+
+                <Button
+                    android:id="@+id/btn_face_unknow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_unknow" />
+
+                <Button
+                    android:id="@+id/btn_face_monitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_monitor" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

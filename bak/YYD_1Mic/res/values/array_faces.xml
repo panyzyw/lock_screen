@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="faces_afraid">
+        <item>@drawable/afraid_0</item>
+        <item>@drawable/afraid_1</item>
+        <item>@drawable/afraid_2</item>
+        <item>@drawable/afraid_3</item>
+        <item>@drawable/afraid_4</item>
+        <item>@drawable/afraid_5</item>
+        <item>@drawable/afraid_6</item>
+        <item>@drawable/afraid_7</item>
+        <item>@drawable/afraid_8</item>
+        <item>@drawable/afraid_9</item>
+        <item>@drawable/afraid_10</item>
+        <item>@drawable/afraid_11</item>
+        <item>@drawable/afraid_12</item>
+        <item>@drawable/afraid_13</item>
+        <item>@drawable/afraid_14</item>
+        <item>@drawable/afraid_15</item>
+        <item>@drawable/afraid_16</item>
+        <item>@drawable/afraid_17</item>
+        <item>@drawable/afraid_18</item>
+        <item>@drawable/afraid_19</item>
+        <item>@drawable/afraid_20</item>
+        <item>@drawable/afraid_21</item>
+        <item>@drawable/afraid_22</item>
+        <item>@drawable/afraid_23</item>
+        <item>@drawable/afraid_24</item>
+        <item>@drawable/afraid_25</item>
+        <item>@drawable/afraid_26</item>
+        <item>@drawable/afraid_27</item>
+        <item>@drawable/afraid_28</item>
+        <item>@drawable/afraid_29</item>
+        <item>@drawable/afraid_30</item>
+        <item>@drawable/afraid_31</item>
+        <item>@drawable/afraid_32</item>
+        <item>@drawable/afraid_33</item>
+        <item>@drawable/afraid_34</item>
+        <item>@drawable/afraid_35</item>
+        <item>@drawable/afraid_36</item>
+    </integer-array>
+
+</resources>
